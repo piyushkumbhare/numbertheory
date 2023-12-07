@@ -44,3 +44,7 @@ $ bin/power-mod 4 1000 83
 The parent `Makefile` has a `clean` rule. Similar to the creation of the binaries, it will go into each subdirectory and run the `clean` rule of its `Makefile`. This will remove all object files (`*.o`) from the subdirectories and empty the `bin/` directory. 
 
 ## Final thoughts
+
+Taking a course on Number Theory has been a super fun and exciting experience since I got exposure to a completely new side of mathematics. I want to learn more about this stuff in the future and am always looking to apply my knowledge of math within computer science (especially with things like cryptography!). 
+
+Again, this is just an experimental playground for me in my Number Theory journey, so I'm bound to make mistakes here and there. Feel free to correct me or suggest changes to my code, or even tell me new ideas to implement! Thanks for stopping by and I hope you enjoyed your stay. :D

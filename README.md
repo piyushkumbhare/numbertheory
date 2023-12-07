@@ -12,7 +12,7 @@ I made this project the perfect excuse for me to get more accustomed to Makefile
 - Each subdirectory has its own `Makefile` that compiles its specfic binary.
 - All binaries are placed within the `bin/` directory at the root level. If the `bin/` directory doesn't exist, you can create it by navigating to the root directory and running `mkdir bin/`.
 
-  *(All Makefiles were coded to work for Windows/Linux (WSL2). If you are unable to compile due to OS errors I would suggest looking up the required changes and make them in the Makefiles)*
+*(All Makefiles were coded to work for Windows/Linux (WSL2). If you are unable to compile due to OS errors I would suggest looking up the required changes and make them in the Makefiles)*
 
 ### Creating the binary files
 

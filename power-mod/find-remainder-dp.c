@@ -56,7 +56,7 @@ int* find_remainder_recursivedp(int n, int p, int m, int verbose)
     if(r < 0) {
         r = m + r;
     }
-    retval[0] = r;
+    retval[0] = r % m;
     return retval;
 }
 

@@ -1,10 +1,11 @@
 # Compiler & Flags settings
 CC := gcc
 CFLAGS := -Werror -Wall -Wpedantic -g
+LFLAGS := -lm
 
 # These are the auxiliary inputs
-SOURCES := power-mod.c find-remainder-bf.c find-remainder-dp.c
-TARGET := ../bin/power-mod
+SOURCES := qr.c
+TARGET := ../bin/qr
 
 # Automatically gets created based on $(SOURCES)
 OBJECTS := $(SOURCES:.c=.o)
@@ -18,7 +19,7 @@ all: $(TARGET)
 
 # Link binary file
 $(TARGET): $(OBJECTS)
-	$(CC) $(CFLAGS) $^ -o $@
+	$(CC) $(CFLAGS) $^ -o $@ $(LFLAGS)
 
 # Remove all non-source files
 clean:

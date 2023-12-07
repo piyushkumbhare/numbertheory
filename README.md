@@ -10,7 +10,7 @@ Here is what I have created so far:
 I made this project the perfect excuse for me to get more accustomed to Makefiles and `make`. Most of this is experimental as I still have a lot to learn. However, in case you decide to clone this repository and try these functions out yourself, here's how it works:
 - There's a parent `Makefile` at the root directory of this repository. It's in charge of running recursive `make` calls to the subdirectories within this repository.
 - Each subdirectory has its own `Makefile` that compiles its specfic binary.
-- All binaries are placed within the `bin/` directory at the root level. If it says `bin/: No such file or directory`, you can create the `bin/` directory by navigating to root and running `mkdir bin/`.
+- All binaries are placed within the `bin/` directory at the root level. If the `bin/` directory doesn't exist, you can create it by navigating to the root directory and running `mkdir bin/`.
 
 ### Creating the binary files
 
